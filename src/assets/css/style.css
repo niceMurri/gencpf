@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(197, 155, 226);
+}
+main{
+    background-color: rgb(164, 82, 223);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.137);
+    width: 70%;
+    max-width: 350px;
+    min-width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+button:hover{
+    color: rgb(164, 82, 223);
+    background: white;
+
+}
+span{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+
+    position: relative;
+}
+
+@keyframes moveCpf{
+    from {font-size: 0.4rem;}
+    to {font-size: 1.2rem;}
+}
